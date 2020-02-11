@@ -1,3 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ddd;
+}
+
+header {
+    background-color: #36a7df;
+}
+
 .menu .menu-liens {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(19rem,1fr));
@@ -5,6 +17,21 @@
 
 .menu .menu-liens > li {
     text-align: center;
+    font-size: 1.3rem;
+}
+
+.menu .menu-liens > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin : 0 1rem;
 }
 
 article {
@@ -16,6 +43,3 @@ article {
     font-size: 1.1rem;
 }
 
-body {
-    background-color: aquamarine;
-}
