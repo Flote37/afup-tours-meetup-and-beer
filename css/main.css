@@ -6,6 +6,10 @@ body {
     background-color: #ddd;
 }
 
+header {
+    background-color: #36a7df;
+}
+
 .menu .menu-liens {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(19rem,1fr));
@@ -13,8 +17,13 @@ body {
 
 .menu .menu-liens > li {
     text-align: center;
+    font-size: 1.3rem;
 }
 
+.menu .menu-liens > li > a {
+    color: white;
+    text-decoration: none;
+}
 article {
     display: flex;
     flex-direction: column;
