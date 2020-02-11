@@ -24,6 +24,16 @@ header {
     color: white;
     text-decoration: none;
 }
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin : 0 1rem;
+}
+
 article {
     display: flex;
     flex-direction: column;
